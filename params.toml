@@ -1,0 +1,16 @@
+[general]
+  verbose = false
+  step = 1
+
+[blur]
+  kernel_size = 33
+
+[threshold_background]
+  threshold = 127
+
+[threshold_knots]
+  threshold = 60
+
+[opening]
+  kernel_size = 7
+  iterations = 5
