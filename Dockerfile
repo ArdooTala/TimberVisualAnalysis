@@ -12,11 +12,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
       openmpi-bin \
       wget \
       python3-tk && \
-    rm -rf /var/lib/apt/lists/* \
+    rm -rf /var/lib/apt/lists/*
 
 RUN mkdir ./images
 
-RUN pip3 install numpy flask opencv-python opencv-contrib-python tomlkit
+RUN pip3 install numpy flask opencv-python opencv-contrib-python
 
 COPY . .
 
